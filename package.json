@@ -1,0 +1,19 @@
+{
+  "name": "tutorialnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "form_params.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzjorge/tutorialnode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzjorge/tutorialnode/issues"
+  },
+  "homepage": "https://github.com/cruzjorge/tutorialnode#readme"
+}
