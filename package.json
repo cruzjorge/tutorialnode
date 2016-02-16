@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cruzjorge/tutorialnode/issues"
   },
-  "homepage": "https://github.com/cruzjorge/tutorialnode#readme"
+  "homepage": "https://github.com/cruzjorge/tutorialnode#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0"
+  }
 }
