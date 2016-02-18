@@ -30,16 +30,15 @@ app.get("/login", function(req, res) {
         console.log(doc);
         res.render("login");
     });
+
 });
 
 app.post("/users", function(req, res) {
     var user = new User ({email: req.body.email, password: req.body.password});
 
-    user.save(function () {
+    user.save(function (err,doc) {
         res.send("Guardamos tus datos");
     });
-
-    res.send("Recibimos tus datos");
 });
 
 app.listen(8080);
